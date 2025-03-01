@@ -131,7 +131,9 @@ def set_dark_theme():
 def main():
     # set_bg_style()
     # st.image("diabetes_banner.jpg", use_container_width=True)
-    st.image("diab1.jpeg", use_container_width=True)
+    # st.image("diab1.jpeg", use_container_width=True)
+    st.image("diab1.jpeg", width=700)
+
     
     set_dark_theme()
     st.title('🩺 Diabetes Prediction WebApp')
