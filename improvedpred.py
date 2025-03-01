@@ -60,7 +60,7 @@ import matplotlib.pyplot as plt
 import time
 
 # Load trained model
-loaded_model = pickle.load(open('D:/Misbah/PICT STUDY/ML_DP/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 def diabetes_pred(input_data):
     input_data_as_numpy_array = np.asarray(input_data, dtype=np.float64)  # Convert input to float
@@ -131,7 +131,7 @@ def set_dark_theme():
 def main():
     # set_bg_style()
     # st.image("diabetes_banner.jpg", use_container_width=True)
-    st.image("D:/Misbah/PICT STUDY/ML_DP/diab1.jpeg", use_container_width=True)
+    st.image("diab1.jpeg", use_container_width=True)
     
     set_dark_theme()
     st.title('🩺 Diabetes Prediction WebApp')
